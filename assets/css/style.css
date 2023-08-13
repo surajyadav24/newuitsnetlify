@@ -87,9 +87,7 @@ p {
   text-transform: capitalize;
 }
 
-.navbar-brand img {
-  width: 120px;
-}
+
 
 header {
   background-color: #fff;
@@ -535,9 +533,11 @@ section {
 }
 
 .sub-heading {
-  padding: 20px 0px;
+  padding: 20px 0px !important;
+  text-align: center;
+  display: flex;
+  justify-content: start;
 }
-
 .site-name {
   color: #fff !important;
   font-size: 18px;
@@ -559,8 +559,9 @@ section {
   background-image: url("../images/About-Us-Images/Why_Us_Bg_Img.jpg");
   background-size: cover;
 }
-
-
+.circle-sperator{
+  display: none;
+}
 
 .company img {
   width: 97px;
@@ -632,7 +633,8 @@ section {
 }
 
 .our-expertise-section .cards h2 {
-  font-size: 4rem;
+  font-size: 3rem;
+  text-align: center;
   font-weight: 600;
   color: #010d4c;
   padding-bottom: 30px;
@@ -1572,7 +1574,27 @@ form label {
   .choose-us-style-two {
     height: 350px;
   }
-
+  .sub-heading {
+    padding: 20px 0px !important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .circle-sperator{
+    padding-top: 15px;
+    width: 100px;
+margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .circle-sperator .fa-circle{
+    font-size: 20px;
+    color: #010d4c;
+  }
+  .navbar-brand img {
+    width: 120px;
+  }
   /* carrer page css */
 }
 
