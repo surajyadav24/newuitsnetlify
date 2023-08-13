@@ -1,0 +1,12 @@
+/*Added by Sweety to override slick.css file - ".slick-vertical .slick-slide" class property - for Responsive*/
+
+@media (max-width: 767px) {
+    .slick-vertical .slick-slide
+    {
+        display: block;
+    
+        height: 570px;
+    
+        border: 1px solid transparent;
+    }
+    }
