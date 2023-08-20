@@ -554,7 +554,6 @@ section {
 }
 
 .why-us-section1 {
-
   padding-bottom: 20px;
   background-image: url("../images/About-Us-Images/Why_Us_Bg_Img.jpg");
   background-size: cover;
@@ -602,10 +601,6 @@ section {
   align-items: start;
   flex-direction: column;
 }
-
-
-
-
 
 .number {
   position: absolute;
